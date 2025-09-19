@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingInline from '@/components/navigation/NavbarLayoutFloatingInline';
 import SplitHero from '@/components/sections/layouts/hero/SplitHero';
@@ -14,7 +14,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           logoSrc="/images/logo.svg"
-          logoAlt="Astra Logo"
           logoWidth={200}
           logoHeight={50}
           navItems={[{ name: "Hero", id: "hero" }, { name: "About", id: "about" }, { name: "How to Buy", id: "how-to-buy" }, { name: "Tokenomics", id: "tokenomics" }, { name: "FAQ", id: "faq" }, { name: "Footer", id: "footer" }]}
